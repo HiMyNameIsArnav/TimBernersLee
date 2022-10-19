@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+#image{
+    border-radius: 50%;
+    width:200px;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    display:table;
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgb(71, 227, 255) 0%,rgb(10, 221, 59)50%, yellow 100%);
+}
+.Tim{
+    display:table-cell;
+    vertical-align:middle;
+}
+h1, h2{
+    color:red ;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+#bio{
+    background:linear-gradient(rgb(247, 187, 10) 0%, rgb(255, 50, 50) 100%);
+    color:rgb(252, 252, 252);
+}
+.menu{
+    list-style:none;
+    top:0px;
+    width:100%;
+    margin-top:0px;
+    position:fixed;
+    z-index:10;
+    cursor:pointer;
+    background-color:white;
+}
+.options{
+    display: inline;
+    padding-left:9px;
+    padding-right: 9px;
+padding-top:5px;
+padding-bottom: 5px;
+font-size:20px;
+
+}
+
+.options:hover{
+    background-color:rgb(227, 255, 127);
+    text-decoration:underline;
+    font-size:25px;
+}
+#writings a{
+    text-decoration:underline  !important;
+    color:rgb(251, 196, 14)  !important;
+}
+#sect3h1{
+    color:orange;
+}
+#sect4h1{
+    color:yellow;
+}
+#sect5h1{
+    color:greenyellow;
+}
+#video{
+    background-color: rgb(0, 179, 255);
+}
+#work{
+    background-color:greenyellow;
+}
+#writings{
+    background-color:yellow;
+}
+#contacts{
+    background-color: rgb(21, 130, 226);
+}
+#contacts iframe{
+    width:100%;
+}
+.contacts1 h3{
+    display: inline;
+}
